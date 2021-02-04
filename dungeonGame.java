@@ -26,6 +26,7 @@ public class dungeonGame {
 
     //condition for while loop so game keeps iterating until we tell it to stop
     boolean working = true;
+    boolean instruction = true;
 
     System.out.println("\n \n \n Loading....");
     // used a for loop as a countdown
@@ -37,18 +38,8 @@ public class dungeonGame {
       }
 
     //Title and Instructions
-    System.out.println("\n \n \t DUNGEON ADVENTURE ");
-
-    System.out.println("|_________________________|\n");
     
-    System.out.println("****************Description(please read before starting game)****************\n");
-
-    System.out.println("*Your sword attacks have a chance to damage the enemy more but you get hit for a little bit of damage as well*\n");
-
-    System.out.println("*Your magic attacks cannot hit for as much as your sword attacks damage for less but you are able to regain a little bit of health after each hit.Your health must be less than 70 in order to use your magic attack.Your magic attacks however also allow the enemy to regain a little bit of health back as well*\n");
-
-
-    System.out.println("_____________________________________");
+    
 
 
     
@@ -56,8 +47,8 @@ public class dungeonGame {
     //labeled the loop to iterate back to it later
     
     GAME: while (working) {
-      
 
+      
       //gives enemy random health between 1 to 100
       int enemyHealth = rand.nextInt(enemyMaxHealth);
 

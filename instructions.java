@@ -1,6 +1,6 @@
 public class instructions
 {
-  public static String gameInstructions()
+  public static void gameInstructions()
   {
     
      System.out.println("\n \n \t DUNGEON ADVENTURE ");
@@ -16,7 +16,7 @@ public class instructions
 
      System.out.println ("_____________________________________");
 
-     return instructions.gameInstructions();
+     
     
   }
   

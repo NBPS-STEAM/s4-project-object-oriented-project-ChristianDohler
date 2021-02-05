@@ -26,7 +26,7 @@ public class dungeonGame {
 
     //condition for while loop so game keeps iterating until we tell it to stop
     boolean working = true;
-    boolean instruction = true;
+    
 
     System.out.println("\n \n \n Loading....");
     // used a for loop as a countdown
@@ -38,7 +38,7 @@ public class dungeonGame {
       }
 
     //Title and Instructions
-    
+    instructions.gameInstructions();
     
 
 

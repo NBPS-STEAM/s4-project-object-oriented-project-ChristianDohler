@@ -1,5 +1,9 @@
-public class instructions
-{
+public class Instructions
+{ 
+  /**
+  Static method for the title and game instructions referenced by 
+  class name itself
+  */
   public static void gameInstructions()
   {
     

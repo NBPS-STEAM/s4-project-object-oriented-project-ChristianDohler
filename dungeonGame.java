@@ -38,8 +38,22 @@ public class dungeonGame {
       }
 
     //Title and Instructions
-    instructions.gameInstructions();
+    Instructions.gameInstructions();
+
+    Enemy ghoul = new Enemy("Ghoul");
+    Enemy mindFlayer = new Enemy("Mind Flayer");
+    Enemy ghost = new Enemy("Ghost");
+    Enemy goblin = new Enemy();
+
+    System.out.println("Enemies you may face along the way: ");
+    System.out.println(ghoul);
+    System.out.println(mindFlayer);
+    System.out.println(ghost);
+    System.out.println(goblin);
+    System.out.println("Total Number of potential enemies: " + Enemy.getNumEnemies());
+    System.out.println("_____________________________________\n\n");
     
+
 
 
     

@@ -51,4 +51,4 @@ Once you've completed your assignment, record a short video (~5 minutes) that in
 - [ ] the GitHub project repository with all commits,
 - [ ] explanation of how your code uses encapsulation
 
-Add the link to your video here:
+Add the link to your video here: https://youtu.be/uPO8Lk-Z_dQ

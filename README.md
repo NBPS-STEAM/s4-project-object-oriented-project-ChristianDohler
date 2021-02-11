@@ -47,8 +47,8 @@ Refer to the grading rubric as you go to ensure you're doing the assignment corr
 
 ### Part 3
 Once you've completed your assignment, record a short video (~5 minutes) that includes the following:
-- [ ] a quick demonstration that your codes works,
-- [ ] the GitHub project repository with all commits,
-- [ ] explanation of how your code uses encapsulation
+- [x] a quick demonstration that your codes works,
+- [x] the GitHub project repository with all commits,
+- [x] explanation of how your code uses encapsulation
 
 Add the link to your video here: https://youtu.be/uPO8Lk-Z_dQ
